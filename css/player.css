@@ -1,0 +1,151 @@
+body{
+	margin:0;
+	padding:0;
+}
+#casette-container{
+	
+	position: relative;
+	width : 400px;
+	height: 550px;
+	border:1px dotted black;
+	margin:auto;
+	top:10px;
+	background: rgb(220, 179, 126);
+}
+#casette-gotg-logo{
+	background-image: url(../image/gotg.png);
+    width: 121px;
+    height: 86px;
+    
+    top: -10px;
+    left: 266px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 34px;
+}
+#casette-hollow{
+	position: relative;
+	left:5%;
+	width:90%;
+	height: 200px;
+	top:-3%;
+	box-shadow: inset 2px 79px 10px rgba(0,0,0,0.5);
+}
+#casette{
+	position: relative;
+	left:7%;
+	width:86%;
+	height:98%;
+	background:#211e1c;
+	border-radius: 10px;
+
+}
+#casette-roller-1{
+	width: 55px;
+    position: relative;
+    height: 55px;
+    border-radius: 100%;
+    background-color: white;
+    top: 65px;
+    left: 70px;
+
+    animation: 2s infinite;
+  	animation-name: rollIt;
+  	animation-timing-function: linear;
+}
+#casette-roller-2{
+	width: 55px;
+    position: absolute;
+    height: 55px;
+    border-radius: 100%;
+    background-color: white;
+    top: 66px;
+    left: 178px;
+
+    animation: 4s infinite;
+  	animation-name: rollIt;
+  	animation-timing-function: linear;
+}
+#casette-wheel{
+	position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: black;
+    top: 12px;
+    left: 12px;
+
+}
+#casette-inner-cog{
+	position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: white;
+    top: 10px;
+    left: 10px;
+}
+#casette-innerx2-cog{
+	position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background: black;
+    top: 2px;
+    left: 2px;
+}
+.teeth{
+	width:10px;
+	height:4px;
+	background-color: white;
+	position: absolute;
+	
+
+}
+#teeth1{
+    top: 13px;
+    left: -3px;
+    transform:rotate(0deg);    
+}
+#teeth2{
+    top: 24px;
+    left: 18px;
+    transform: rotate(55deg);   
+}
+#teeth3{
+	top: 3px;
+    left: 18px;
+    transform: rotate(-55deg);
+}
+#teeth4{
+	top: 2px;
+    left: 4px;
+    transform: rotate(55deg);
+}
+#teeth5{
+	top: 23px;
+    left: 3px;
+    transform: rotate(-55deg);
+}
+#teeth6{
+	top: 14px;
+    left: 23px;
+    transform: rotate(0deg);
+}
+
+
+
+
+
+@keyframes rollIt{
+	0%{
+		transform:rotate(0deg);
+	}
+	50%{
+		transform:rotate(-180deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
+}
