@@ -41,6 +41,86 @@ body{
 	border-radius: 10px;
 
 }
+#casette-label1{
+	width: 95%;
+    height: 24%;
+    top: 12px;
+    left: 6px;
+    background: #EFC278;
+    position: absolute;
+}
+#casette-label2{
+	width: 19%;
+    height: 35%;
+    top: 59px;
+    left: 6px;
+    background: #EFC278;
+    position: absolute;
+}
+#casette-label3{
+	width: 20%;
+    height: 35%;
+    top: 59px;
+    left: 238px;
+    background: #EFC278;
+    position: absolute;
+}
+.stripe{
+	background:#ED4E24;
+	
+	position: absolute;
+	border-radius:2px;
+}
+#stripe1{
+	width: 96%;
+    margin: 2px;
+    height: 1px;
+}
+#stripe2{
+	top: 15px;
+    width: 96%;
+    margin: 2px;
+    height: 3px;
+}
+#stripe3{
+	top: 30px;
+    width: 95%;
+    margin: 2px;
+    height: 5px;
+}
+#stripe4{
+	top: 40px;
+    width: 96%;
+    margin: 2px;
+    height: 7px;
+}
+#stripe5{
+	    top: 52px;
+    width: 95%;
+    margin: 2px;
+    height: 12px;
+}
+#stripe6{
+	top: -1px;
+    width: 99%;
+    margin: 2px;
+    height: 10px;
+}
+#stripe7{
+	top: 11px;
+    width: 99%;
+    margin: 2px;
+    height: 15px;
+}
+
+#casette-label4{
+	width: 95%;
+    height: 15%;
+    top: 125px;
+    left: 6px;
+    background: #EFC278;
+    position: absolute;
+}
 #casette-roller-1{
 	width: 55px;
     position: relative;
